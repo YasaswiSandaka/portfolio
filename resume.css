@@ -1,6 +1,64 @@
 body{
     background-color: #1f242d;
 }
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 20px;
+    }
+
+    .navbar li {
+        font-size: 0.9rem;
+    }
+
+    .home-info {
+        width: 90%;
+        margin-top: 4rem;
+        padding: 1.5rem;
+    }
+
+    .home-img {
+        height: 200px;
+        width: 200px;
+    }
+
+    .about, .Work {
+        width: 90%;
+        padding: 15px;
+    }
+    .projects{
+       display: flex;
+       
+    }
+
+    .con-nav{
+        font-size: 1rem;
+    }
+
+    .Contact{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        padding: 30px;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .Work .projects .skills {
+        width: 80%;
+    }
+
+    .Content .con-item1 .con-item {
+        padding: 30px;
+    }
+}
 .a{
     text-decoration: none;
 }
